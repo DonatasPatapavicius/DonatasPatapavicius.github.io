@@ -1,0 +1,132 @@
+body {
+    font-family: cursive;
+    color: #7f0450;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #05325d;
+}
+p {
+    color: #05325d;
+}
+a {
+    color: #12eb19;
+}
+a:hover {
+    color: #e74c3c;
+}
+a:active{
+    color: #e74c3c;
+}
+
+.contact .php-email-form button[type=submit] {
+  color: #12eb19;
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: #12eb19;
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 15px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 16px;
+  padding: 15px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 30px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 30px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 10px;
+}
+
+.skills .progress-bar-wrap {
+  background: color-mix(#fe56bb, transparent 90%);
+  height: 15px;
+}
+
+.skills .progress-bar {
+  width: 2px;
+  height: 15px;
+  transition: 15s;
+  background-color: #7f0450;
+}
+
+.resume .resume-item {
+  padding: 0 0 40px 40px;
+  margin-top: -2px;
+  border-left: 2px solid #7f0450;
+  position: relative;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: var(--background-color);
+  border: 2px solid #7f0450;
+}
+
+ul{
+  color: #9f0ed0;
+}
+ol{
+  color: #5f7d04;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: #ffffff;
+    font: italic;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
